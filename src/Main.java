@@ -6,6 +6,10 @@ public class Main {
         Book divergent = new Book("Дивергент", roth, 2015);
         Book insurgent = new Book("Инсургент", roth, 2016);
         Book allegiant = new Book("Аллигент", roth, 2017);
+        Book allegiant2 = new Book("Аллигент", roth, 2017);
         braveNewWorld.setPublishingYear(2011);
+        System.out.println(divergent.getAuthor());
+        System.out.println(insurgent);
+        System.out.println(allegiant.equals(allegiant2));
     }
 }
